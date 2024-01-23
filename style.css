@@ -1,0 +1,189 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.banner-content {
+    border-bottom: 2px solid rgba(51, 168, 219, 1);
+    background-image: url(assets/images/banner.png), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    background-color: rgba(7, 7, 46, 0.897);
+    height: 605px;
+    background-size: cover;
+}
+
+.pri-paragrafo {
+    font-size: 19px;
+    color: white;
+    width: 510px;
+    height: 46px;
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 400;
+    width: 510px;
+    height: 46px;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 680px;
+}
+
+h1 {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {
+    margin-top: 20px    ;
+    padding: 15px 30px 15px 30px;
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 2px solid rgba(51, 168, 219, 1);
+    color: rgba(51, 168, 219, 1);
+    background: transparent;
+}
+
+#imagem-01 {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+#course-content {
+    text-align: center;
+    height: 480px;
+    background-color: black;
+}
+
+#paragrafo-course-content {
+    font-family: Raleway;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: white;
+    width: 830px;
+    margin: 0px 0px 0px 550px;
+}
+
+.modules-list {
+    margin: 0px 0px 0px 690px;
+}
+
+.module {
+    font-family: Raleway;
+    font-weight: 400;
+    width: 500px;
+    padding: 15px 10px 15px 10px;
+    background-color: rgba(37, 37, 37, 1);
+    color: white;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    border-radius: 40px;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+span {
+    color: rgba(51, 168, 219, 1);
+}
+
+h2 {
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#aprender {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    color: rgba(51, 168, 219, 1);
+}
+
+#transform-world {
+    background-image: url(assets/images/woman-code.png);
+    background-color: black;
+    height: 500px;
+    top: 1138px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+.paragrafo-transform {
+    text-align: left;
+    text-transform: Raleway;
+    text-transform: lowercase;
+    font-weight: bold;
+    width: 280px;
+    height: 141px;
+    font-weight: 900px;
+    line-height: 46.96px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    padding: 165px 0px 0px 200px;
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 1);
+}
+
+#imagem-professional {
+    padding: 50px 0px 50px 0px;
+}
+
+#titulo-dois-professional{
+    width: 746px;
+    height: 76px;
+    padding-left: 560px;
+    padding-top: 100px;
+    color: rgba(51, 168, 219, 1);
+}
+
+#paragrafo-professional{
+    font-size: 16px;
+    color: white;
+    padding-left: 560px;
+    width: 792px;
+    height: 76px;
+}
+
+#professional-challenges {
+    font-family: Raleway;
+    font-weight: 400px;
+    height: 850px;
+    background-color: black;
+    text-align: center;
+}
+
+.dio-logo {
+    padding-top: 70px;
+}
+
+a {
+    color: rgba(51, 168, 219, 1);
+    text-decoration: none
+}
+
+footer {
+    font-family: Raleway;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    height: 200px;
+    background: linear-gradient(black 10px, rgb(13, 37, 48));
+
+}
